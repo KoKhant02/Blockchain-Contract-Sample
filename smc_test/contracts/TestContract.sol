@@ -5,8 +5,7 @@ contract TestContract
 {
 	uint public counter = 0;
 
-	constructor() public
-	{
+	constructor() {
 		IncrementCounter();
 	}
 
